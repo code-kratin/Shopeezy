@@ -1,0 +1,35 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 20px;
+  cursor: pointer;
+  box-shadow: 0px 1px 10px rgb(198, 198, 198);
+}
+h2{
+  margin: 0px;
+}
+.navbar-ul {
+  margin: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.navbar-ul li {
+  margin: auto auto;
+  padding: 10px;
+  /* float: left; */
+}
+
+.nav-btn {
+  /* margin: 8px; */
+  background-color: rgb(255 101 101);
+  font-family: inherit;
+  border: 0px;
+  font-size: 14px;
+  /* height: 70%; */
+  /* padding: 8px 10px; */
+  cursor: pointer;
+}
